@@ -18,7 +18,6 @@ var map;
 var overlay;
 var mapon = false;
 
-
 // load data for dashboard
 
 function loadData(){
@@ -92,6 +91,7 @@ function initDash(data,geom){
 function genQuestion(data){
 
 	// create crossfilter of subset
+	currentChart='barchart';
 	var cf = crossfilter(data);
 	cf.data = data;
 	cf.aggs = [];
