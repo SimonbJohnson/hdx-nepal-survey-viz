@@ -18,7 +18,6 @@ var map;
 var overlay;
 var mapon = false;
 
-
 // load data for dashboard
 
 function loadData(){
